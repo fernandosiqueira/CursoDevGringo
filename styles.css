@@ -18,13 +18,18 @@ h1, h2, h3, .navbar-brand {
 }
 
 .hero-section {
-    background-color: var(--secondary-color);
-    padding: 100px 0;
+    background-image: url('Assets/capa.jpg');
+    background-size: cover;        /* Faz a imagem cobrir toda a section */  /* Centraliza a imagem */
+    background-repeat: no-repeat;  /* Evita repetição */
+    height: 400px;                 /* Altere conforme o necessário */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;                  /* Cor do texto dentro da section */
     text-align: center;
 }
 
 .hero-section h1 {
-    font-size: 3.5rem;
     color: var(--accent-color);
 }
 
@@ -54,6 +59,7 @@ h1, h2, h3, .navbar-brand {
 .video-section {
     padding: 80px 0;
     text-align: center;
+    background: #000;
 }
 
 .video-container {
@@ -81,9 +87,7 @@ h1, h2, h3, .navbar-brand {
     font-style: italic;
 }
 
-.testimonial-section p {
-    font-size: 1.5rem;
-}
+
 
 .section {
     padding: 80px 0;
@@ -91,7 +95,7 @@ h1, h2, h3, .navbar-brand {
 
 .section h2 {
     text-align: center;
-    margin-bottom: 60px;
+    /*margin-bottom: 60px;*/
     color: var(--accent-color);
 }
 
@@ -123,13 +127,13 @@ h1, h2, h3, .navbar-brand {
 }
 
 .faq-section .accordion-button {
-    background-color: var(--secondary-color);
+    background-color: var(--secondary-color) !important;
     color: var(--text-color);
     font-weight: bold;
 }
 
 .faq-section .accordion-button:not(.collapsed) {
-    background-color: #415A77;
+    background-color: #415A77 !important; 
     color: var(--accent-color);
 }
 
