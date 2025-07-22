@@ -1,0 +1,159 @@
+:root {
+    --primary-color: #0D1B2A;
+    --secondary-color: #1B263B;
+    --accent-color: #FFC107; /* Amarelo vibrante para CTAs */
+    --text-color: #E0E1DD;
+    --dark-text: #0D1B2A;
+}
+
+body {
+    background-color: var(--primary-color);
+    color: var(--text-color);
+    font-family: 'Open Sans', sans-serif;
+}
+
+h1, h2, h3, .navbar-brand {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+}
+
+.hero-section {
+    background-color: var(--secondary-color);
+    padding: 100px 0;
+    text-align: center;
+}
+
+.hero-section h1 {
+    font-size: 3.5rem;
+    color: var(--accent-color);
+}
+
+.hero-section p {
+    font-size: 1.25rem;
+    max-width: 700px;
+    margin: 20px auto 40px;
+}
+
+.cta-button {
+    background-color: var(--accent-color);
+    color: var(--dark-text);
+    padding: 15px 40px;
+    border-radius: 50px;
+    font-weight: bold;
+    text-transform: uppercase;
+    transition: all 0.3s ease;
+    border: none;
+    font-size: 1.1rem;
+}
+
+.cta-button:hover {
+    transform: scale(1.05);
+    box-shadow: 0 5px 20px rgba(255, 193, 7, 0.4);
+}
+
+.video-section {
+    padding: 80px 0;
+    text-align: center;
+}
+
+.video-container {
+    position: relative;
+    padding-bottom: 56.25%; /* 16:9 */
+    height: 0;
+    overflow: hidden;
+    max-width: 100%;
+    background: #000;
+    border-radius: 15px;
+    box-shadow: 0 10px 40px rgba(0,0,0,0.5);
+}
+
+.video-container iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
+.testimonial-section {
+    background-color: var(--secondary-color);
+    padding: 60px 0;
+    font-style: italic;
+}
+
+.testimonial-section p {
+    font-size: 1.5rem;
+}
+
+.section {
+    padding: 80px 0;
+}
+
+.section h2 {
+    text-align: center;
+    margin-bottom: 60px;
+    color: var(--accent-color);
+}
+
+.feature-card, .module-card {
+    background-color: var(--secondary-color);
+    padding: 30px;
+    border-radius: 15px;
+    margin-bottom: 30px;
+    text-align: center;
+    height: 100%;
+}
+
+.instructor-section {
+    background-color: #000;
+}
+
+.instructor-img {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    object-fit: cover;
+    border: 5px solid var(--accent-color);
+}
+
+.faq-section .accordion-item {
+    background-color: var(--secondary-color);
+    color: var(--text-color);
+    border: 1px solid #415A77;
+}
+
+.faq-section .accordion-button {
+    background-color: var(--secondary-color);
+    color: var(--text-color);
+    font-weight: bold;
+}
+
+.faq-section .accordion-button:not(.collapsed) {
+    background-color: #415A77;
+    color: var(--accent-color);
+}
+
+.final-cta {
+    background-color: var(--accent-color);
+    color: var(--dark-text);
+    text-align: center;
+}
+
+.final-cta h2 {
+    color: var(--dark-text);
+}
+
+footer {
+    text-align: center;
+    padding: 20px 0;
+    background-color: #000;
+    font-size: 0.9rem;
+}
+
+.row{
+    margin-bottom: 20px;
+}
+
+.fundo{
+    background-color: var(--secondary-color);
+}
